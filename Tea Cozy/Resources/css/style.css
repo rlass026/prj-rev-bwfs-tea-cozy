@@ -1,0 +1,124 @@
+.flex-container {
+  display: flex;
+  justify content: center;
+  flex-wrap: wrap;
+}
+header {
+  width: 100%;
+  position: fixed;
+  z-index: 1;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+}
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+a {
+  text-decoration: underline;
+  color: seashell;
+}
+nav {
+  text-align: right;
+  flex-grow: 1;
+  display: block;
+}
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+body {
+  font-family: Helvetica;
+  color: seashell;
+  font-size: 22px;
+  text-align: center;
+  display: block;
+  background-color: black;
+  margin: 0;
+}
+.main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+div {
+  display: block;
+}
+#mission {
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+  padding-top: 70px;
+}
+#mission .content {
+  width: 100%;
+  margin: auto;
+  background-color: black;
+}
+#store {
+  height: 700px;
+  width: 1000px;
+  padding-top: 70px;
+  margin: auto;
+  background-color: black;
+}
+#store .flex-container {
+  justify-content: center;
+}
+#locations {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    height: 500px;
+    padding-top: 70px;
+    display: block;
+    text-align: center;
+}
+.location {
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px;
+  margin: 5px 20px;
+  background-color: black;
+  flex-basis: 270px;
+}
+#locations .flex-container {
+  width: 1100px;
+  margin: auto;
+  justify-content: center;
+  padding-top: 5px;
+}
+#contact {
+  height: 200px;
+}
+h2,h3,h4,h5 {
+  margin: 0px;
+  padding: 10px;
+  display: block;
+  font-weight: bold;
+  text-align: center;
+}
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
+.item {
+  padding: 5px;
+  display: block;
+  text-align: center;
+}
+.item img {
+  height: 200px;
+  margin: 10px;
+  display: block;
+}
+.item span {
+  display: block;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+}
+p {
+  display: block;
+}
